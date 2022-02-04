@@ -1,0 +1,23 @@
+create table VIP(
+VIP_name char(10) primary key,
+VIP_gender char(10),
+VIP_age char(10),
+VIP_job char(10),
+VIP_worker char(10),
+VIP_prefer char(10)
+);
+
+insert into VIP
+values('김철수', '남', '35', '의사', '이민기', '스포츠');
+insert into VIP
+values('한다민', '여', '28', '패션모델', '이민기', '여성의류');
+insert into VIP
+values('조윤주', '여', '25', '학생', '김가은', '원피스');
+insert into VIP
+values('고길동', '남', '45', '사업가', '이민기', '골프의류');
+insert into VIP
+values('강민', '남', '30', '교사', '김가은', '남성하의');
+insert into VIP
+values('이현', '여', '55', '주부', '한민수', '아동의류');
+
+select * from VIP;
